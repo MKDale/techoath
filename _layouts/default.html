@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+{% seo %}
+
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <a href="{{ site.github.url }}"> <h1>A Personal Oath</h1> </a>
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
+
+        {% if site.github.is_project_page %}
+          <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ github_name }}</small></a></p>
+        {% endif %}
+
+        {% if site.github.is_user_page %}
+          <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
+        {% endif %}
+
+      </header>
+      <section>
+
+      <em>“Our very lives depend on the ethics of strangers, and most of us are always strangers to other people.”</em><p>-<strong>Bill Moyers</strong>, Former White House Press Secretary</p>
+          
+        <h3>An Introduction</h3>
+        <p>Technologists today wield a powerful tool. We are designing, prioritizing, and putting things out into the world, affecting people we have never met. We are on their wrists, in their laptops, in their pockets, and thus, in their heads. Sometimes the ethics are in clear black and white, but at other times it can be a bit more complicated.</p>
+
+        <p>I was lucky to be in the audience to witness <a target="_blank" href="https://interaction18.ixda.org/program/keynote--alan-cooper">Alan Cooper’s recent talk at Interaction 18</a>, which he kicked off by asking a room full of technologists to imagine some scenarios, including the following:</p>
+        <ul>
+            <li>You are the data analyst that helps build a nearly-perfect targeted ad platform that powers a billion-dollar business. But then foreign hackers use it to influence a presidential campaign and attack a representative democracy. You write a machine-learning spell-check algorithm, the best in the world and deployed globally. But one day it auto-corrects some prescription drug names into different drug names, causing harm to innocent people.</li>
+
+            <li>The point of examples like these are not to blame the technology or it’s makers. The point is to illustrate the responsibility we bear for what we make. As Cooper says in his talk, we move forward not just by patching holes in current technology, but by preventing these kinds of abuses from being an option in future technology.</li></ul>
+
+        <h4>Which brings us here.</h4>
+
+        <p>Everyone draws their lines in different ways and perhaps there is a spectrum of what is reasonable when implementing influential products. That’s exactly why technologists must seek to educate themselves on the patterns they are implementing in order to understand their psychological influence and other outcomes where intended use is not always the same as the reality of the user experience. Not only that, but we should feel empowered to speak up to authority when something crosses a line.</p>
+
+        <p>Even with the formidable power we wield on day-to-day lives as engineers, designers, product managers, data scientists, etc., there is very little education and oversight on ethics in our industry. And I’m not the only one having this moment of introspection—it's felt all over, from <a target="_blank" href="https://www.fastcodesign.com/90132364/nest-founder-i-wake-up-in-cold-sweats-thinking-what-did-we-bring-to-the-world">an iPhone creator</a> to <a target="_blank" href="https://www.fastcodesign.com/90132364/nest-founder-i-wake-up-in-cold-sweats-thinking-what-did-we-bring-to-the-world">Y Combinator’s leader</a> and <a target="_blank" href="http://humanetech.com/">more</a>.</p>
+
+        <p>This discovery process drove me to understand better those industries which do incorporate ethical standards into their professions, and led me create a version of the <a target='_blank' href="https://en.wikipedia.org/wiki/Hippocratic_Oath">physician’s Hippocratic Oath</a>, but for technologists. While this is not the <a href="http://neveragain.tech/" target="_blank">first pledge for tech employees</a>, and it will not be the last, it is part of this new world where we can no longer be ignorant of our responsibilities and the potential ramifications of our work.</p>
+
+        <p>Originally this was a personal endeavor, made as a standard that I could adhere to myself during a period of especially consequential design work. But as I’ve slowly widened the circle of colleagues I’ve shared it with, some of them have also found value in it. Perhaps you will as well.</p>
+
+
+        <h2>Technologist’s Oath:</h2>
+
+        <p>I swear to fulfill, to the best of my ability and judgment, this pledge:</p>
+
+        <p>I will remember that users, individually or collectively, are not numbers or a goal, they are people and must be respected.</p>
+
+        <p>I will respect the hard-won professional and creative gains of those technologists that came before me, and I will gladly share my knowledge with future generations.</p>
+
+        <p>I will apply my abilities for the benefit and value of the end user, and I will advocate when the goal of a product comes into conflict with this.</p>
+
+        <p>I will remember that there is art to technology as well as science, and that empathy, craft, and remaining mindful about the consequences of my decisions outweigh the importance of my technical knowledge, the impulse for financial benefit, or allure of status.</p>
+
+        <p>I will not be ashamed to say "I don’t know," nor will I fail to call upon my colleagues when the skills of another are needed for deeper critique or diversity of thought.</p>
+
+        <p>I will respect the need of my users to maintain healthy relationships with technology. For every problem I attempt to solve, I will strive to directly connect with the audience of the solution I create.</p>
+
+        <p>I must tread with care in matters of life balance and manipulation, ceasing involvement when ethical dilemma or moral recklessness arise.</p>
+
+        <p>I will strive to positively influence the lives of those impacted by the technology I build, but I acknowledge that it may also be within my power to negatively impact a life to serious consequence; this awesome responsibility must be faced with great humbleness and awareness of my own limitations.</p> 
+
+        <p>I will remember that I do not build merely platforms, applications, or websites but that my work affects human beings in the end, whose capacity or ability to use my creation may affect their family, economic stability, or mental well being. My responsibility should include  any directly related outcomes, if I believe I have crafted a truly ethical product.</p>
+
+        <p>I will prevent exploitation of users whenever I can, for prevention is preferable to extrication.</p>
+
+        <p>I will remember that I remain a member of society, with special obligations to all my fellow human beings, those sound of mind and body as well as the disabled or moderately impaired.</p> 
+
+        <p>Above all, I understand that I am the gatekeeper; placing greater concern in the consequences of the technology I build over that of obeying authority. If I do not violate this oath, may I enjoy life and my craft, respected while I live and remembered with esteem thereafter. May I always act so as to preserve the highest standards of my calling and may I long experience the joy of helping those who explicitly or implicitly seek my help through the experiences and products I help put into the world.</p>
+
+        <h3>Code Comment snippet</h3>
+          <code>
+              <!--Technologist’s Oath:
+
+                <p>I swear to fulfill, to the best of my ability and judgment, this pledge:</p>
+
+                <p>I will remember that users, individually or collectively, are not numbers or a goal, they are people and must be respected.</p>
+
+                <p>I will respect the hard-won professional and creative gains of those technologists that came before me, and I will gladly share my knowledge with future generations.</p>
+
+                <p>I will apply my abilities for the benefit and value of the end user, and I will advocate when the goal of a product comes into conflict with this.</p>
+
+                <p>I will remember that there is art to technology as well as science, and that empathy, craft, and remaining mindful about the consequences of my decisions outweigh the importance of my technical knowledge, the impulse for financial benefit, or allure of status.</p>
+
+                <p>I will not be ashamed to say "I don’t know," nor will I fail to call upon my colleagues when the skills of another are needed for deeper critique or diversity of thought.</p>
+
+                <p>I will respect the need of my users to maintain healthy relationships with technology. For every problem I attempt to solve, I will strive to directly connect with the audience of the solution I create.</p>
+
+                <p>I must tread with care in matters of life balance and manipulation, ceasing involvement when ethical dilemma or moral recklessness arise.</p>
+
+                <p>I will strive to positively influence the lives of those impacted by the technology I build, but I acknowledge that it may also be within my power to negatively impact a life to serious consequence; this awesome responsibility must be faced with great humbleness and awareness of my own limitations.</p> 
+
+                <p>I will remember that I do not build merely platforms, applications, or websites but that my work affects human beings in the end, whose capacity or ability to use my creation may affect their family, economic stability, or mental well being. My responsibility should include  any directly related outcomes, if I believe I have crafted a truly ethical product.</p>
+
+                <p>I will prevent exploitation of users whenever I can, for prevention is preferable to extrication.</p>
+
+                <p>I will remember that I remain a member of society, with special obligations to all my fellow human beings, those sound of mind and body as well as the disabled or moderately impaired.</p> 
+
+                <p>Above all, I understand that I am the gatekeeper; placing greater concern in the consequences of the technology I build over that of obeying authority. If I do not violate this oath, may I enjoy life and my craft, respected while I live and remembered with esteem thereafter. May I always act so as to preserve the highest standards of my calling and may I long experience the joy of helping those who explicitly or implicitly seek my help through the experiences and products I help put into the world.</p>--></code>
+          
+      </section>
+      <footer>
+        {% if site.github.is_project_page %}
+        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        {% endif %}
+      </footer>
+    </div>
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+
+
+  {% if site.google_analytics %}
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+    </script>
+  {% endif %}
+  </body>
+</html>
