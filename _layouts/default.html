@@ -15,8 +15,9 @@
   <body>
     <div class="wrapper">
       <header>
-        <a href="{{ site.github.url }}"> <h1>A Personal Oath</h1> </a>
+        <a href="{{ site.github.url }}"> <h1>A Hippocratic Oath for Technologists</h1> </a>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <p><a href="http://mariesa.me.">Mariesa.me</a></p>
 
         {% if site.github.is_project_page %}
           <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ github_name }}</small></a></p>
@@ -28,9 +29,11 @@
 
       </header>
       <section>
-
-      <em>“Our very lives depend on the ethics of strangers, and most of us are always strangers to other people.”</em><p>-<strong>Bill Moyers</strong>, Former White House Press Secretary</p>
-          
+          <div style="intro-quote">
+      <em>“Our very lives depend on the ethics of strangers, and most of us are always strangers to other people.”</em><p>-<strong>Bill Moyers</strong>, Former White House Press Secretary</p><br>
+            </div>
+          <hr>
+          <article>
         <h3>An Introduction</h3>
         <p>Technologists today wield a powerful tool. We are designing, prioritizing, and putting things out into the world, affecting people we have never met. We are on their wrists, in their laptops, in their pockets, and thus, in their heads. Sometimes the ethics are in clear black and white, but at other times it can be a bit more complicated.</p>
 
@@ -49,7 +52,8 @@
         <p>This discovery process drove me to understand better those industries which do incorporate ethical standards into their professions, and led me create a version of the <a target='_blank' href="https://en.wikipedia.org/wiki/Hippocratic_Oath">physician’s Hippocratic Oath</a>, but for technologists. While this is not the <a href="http://neveragain.tech/" target="_blank">first pledge for tech employees</a>, and it will not be the last, it is part of this new world where we can no longer be ignorant of our responsibilities and the potential ramifications of our work.</p>
 
         <p>Originally this was a personal endeavor, made as a standard that I could adhere to myself during a period of especially consequential design work. But as I’ve slowly widened the circle of colleagues I’ve shared it with, some of them have also found value in it. Perhaps you will as well.</p>
-
+              </article>
+        <article>
 
         <h2>Technologist’s Oath:</h2>
 
@@ -78,37 +82,44 @@
         <p>I will remember that I remain a member of society, with special obligations to all my fellow human beings, those sound of mind and body as well as the disabled or moderately impaired.</p> 
 
         <p>Above all, I understand that I am the gatekeeper; placing greater concern in the consequences of the technology I build over that of obeying authority. If I do not violate this oath, may I enjoy life and my craft, respected while I live and remembered with esteem thereafter. May I always act so as to preserve the highest standards of my calling and may I long experience the joy of helping those who explicitly or implicitly seek my help through the experiences and products I help put into the world.</p>
-
+            </article>
+        <article>
         <h3>Code Comment snippet</h3>
-          <code>
+          <div class="highlighter-rouge">
+              <div class="highlight">
+                  <pre class="highlight">
+            <code>
               <!--Technologist’s Oath:
 
-                <p>I swear to fulfill, to the best of my ability and judgment, this pledge:</p>
+                I swear to fulfill, to the best of my ability and judgment, this pledge:
 
-                <p>I will remember that users, individually or collectively, are not numbers or a goal, they are people and must be respected.</p>
+                I will remember that users, individually or collectively, are not numbers or a goal, they are people and must be respected.
 
-                <p>I will respect the hard-won professional and creative gains of those technologists that came before me, and I will gladly share my knowledge with future generations.</p>
+                I will respect the hard-won professional and creative gains of those technologists that came before me, and I will gladly share my knowledge with future generations.
 
-                <p>I will apply my abilities for the benefit and value of the end user, and I will advocate when the goal of a product comes into conflict with this.</p>
+                I will apply my abilities for the benefit and value of the end user, and I will advocate when the goal of a product comes into conflict with this.
 
-                <p>I will remember that there is art to technology as well as science, and that empathy, craft, and remaining mindful about the consequences of my decisions outweigh the importance of my technical knowledge, the impulse for financial benefit, or allure of status.</p>
+                I will remember that there is art to technology as well as science, and that empathy, craft, and remaining mindful about the consequences of my decisions outweigh the importance of my technical knowledge, the impulse for financial benefit, or allure of status.
 
-                <p>I will not be ashamed to say "I don’t know," nor will I fail to call upon my colleagues when the skills of another are needed for deeper critique or diversity of thought.</p>
+                I will not be ashamed to say "I don’t know," nor will I fail to call upon my colleagues when the skills of another are needed for deeper critique or diversity of thought.
 
-                <p>I will respect the need of my users to maintain healthy relationships with technology. For every problem I attempt to solve, I will strive to directly connect with the audience of the solution I create.</p>
+                I will respect the need of my users to maintain healthy relationships with technology. For every problem I attempt to solve, I will strive to directly connect with the audience of the solution I create.
 
-                <p>I must tread with care in matters of life balance and manipulation, ceasing involvement when ethical dilemma or moral recklessness arise.</p>
+                I must tread with care in matters of life balance and manipulation, ceasing involvement when ethical dilemma or moral recklessness arise.
 
-                <p>I will strive to positively influence the lives of those impacted by the technology I build, but I acknowledge that it may also be within my power to negatively impact a life to serious consequence; this awesome responsibility must be faced with great humbleness and awareness of my own limitations.</p> 
+                I will strive to positively influence the lives of those impacted by the technology I build, but I acknowledge that it may also be within my power to negatively impact a life to serious consequence; this awesome responsibility must be faced with great humbleness and awareness of my own limitations.
 
-                <p>I will remember that I do not build merely platforms, applications, or websites but that my work affects human beings in the end, whose capacity or ability to use my creation may affect their family, economic stability, or mental well being. My responsibility should include  any directly related outcomes, if I believe I have crafted a truly ethical product.</p>
+                I will remember that I do not build merely platforms, applications, or websites but that my work affects human beings in the end, whose capacity or ability to use my creation may affect their family, economic stability, or mental well being. My responsibility should include  any directly related outcomes, if I believe I have crafted a truly ethical product.
 
-                <p>I will prevent exploitation of users whenever I can, for prevention is preferable to extrication.</p>
+                I will prevent exploitation of users whenever I can, for prevention is preferable to extrication.
 
-                <p>I will remember that I remain a member of society, with special obligations to all my fellow human beings, those sound of mind and body as well as the disabled or moderately impaired.</p> 
+                I will remember that I remain a member of society, with special obligations to all my fellow human beings, those sound of mind and body as well as the disabled or moderately impaired. 
 
-                <p>Above all, I understand that I am the gatekeeper; placing greater concern in the consequences of the technology I build over that of obeying authority. If I do not violate this oath, may I enjoy life and my craft, respected while I live and remembered with esteem thereafter. May I always act so as to preserve the highest standards of my calling and may I long experience the joy of helping those who explicitly or implicitly seek my help through the experiences and products I help put into the world.</p>--></code>
-          
+                Above all, I understand that I am the gatekeeper; placing greater concern in the consequences of the technology I build over that of obeying authority. If I do not violate this oath, may I enjoy life and my craft, respected while I live and remembered with esteem thereafter. May I always act so as to preserve the highest standards of my calling and may I long experience the joy of helping those who explicitly or implicitly seek my help through the experiences and products I help put into the world.--></code>
+                    </pre>
+                  </div>
+              </div>
+          </article>
       </section>
       <footer>
         {% if site.github.is_project_page %}

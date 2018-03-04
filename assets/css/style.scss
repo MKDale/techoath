@@ -2,3 +2,22 @@
 ---
 
 @import "jekyll-theme-minimal";
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+body {
+   font-family: 'Playfair Display', serif;
+}
+
+article {
+    margin: .5em 0;
+}
+
+.intro-quote {
+    padding: 15px;
+}
+
+li {
+    padding-bottom: 8px;
+}
+
+
